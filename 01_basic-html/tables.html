@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabellen in HTML</title>
+</head>
+<body>
+  <h1>Tabellen in HTML</h1>
+
+  <!-- Einfache Tabelle mit Kopfzeile -->
+  <h2>Grundstruktur einer Tabelle</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Beruf</th>
+        <th>Alter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Anna</td>
+        <td>UI Designerin</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Ben</td>
+        <td>Frontend Entwickler</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td>Clara</td>
+        <td>UX Researcherin</td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Tabelle ohne Kopfzeile -->
+  <h2>Einfache Tabelle ohne &lt;thead&gt;</h2>
+  <table border="1">
+    <tr>
+      <td>HTML</td>
+      <td>Struktur</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Design</td>
+    </tr>
+  </table>
+
+  <!-- Zusammengefasste Zellen -->
+  <h2>Zellen zusammenfassen mit colspan</h2>
+  <table border="1">
+    <tr>
+      <th colspan="2">Technologien</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>CSS</td>
+    </tr>
+  </table>
+
+  <!-- Hinweis -->
+  <p>Tabellen sind ideal für strukturierte Daten wie Preislisten, Stundenpläne oder Teamübersichten.</p>
+</body>
+</html>
