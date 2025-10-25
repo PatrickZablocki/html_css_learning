@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrierung</title>
+</head>
+<body>
+    <h1>Registrierungsformular</h1>
+
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="fullname">Vollständiger Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Passwort -->
+        <label for="pwd">Passwort:</label>
+        <input type="password" id="pwd" name="password" required>
+        <br><br>
+
+        <!-- Passwort bestätigen -->
+        <label for="pwd2">Passwort bestätigen:</label>
+        <input type="password" id="pwd2" name="password2" required>
+        <br><br>
+
+        <!-- Geschlecht -->
+        <label>Geschlecht:</label>
+        <input type="radio" name="gender" value="male"> Männlich
+        <input type="radio" name="gender" value="female"> Weiblich
+        <br><br>
+
+        <!-- Lieblingsfarbe -->
+        <label for="color">Lieblingsfarbe:</label>
+        <select id="color" name="color">
+            <option value="rot">Rot</option>
+            <option value="blau">Blau</option>
+            <option value="grün">Grün</option>
+        </select>
+        <br><br>
+
+        <!-- Submit -->
+        <button type="submit">Registrieren</button>
+    </form>
+</body>
+</html>

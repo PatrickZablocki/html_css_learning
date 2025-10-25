@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Beispiel</title>
+    <style>
+        /* Grid Container */
+        .grid-container {
+            display: grid; /* Grid aktivieren */
+            grid-template-columns: repeat(3, 1fr); /* 3 Spalten gleich breit */
+            gap: 10px; /* Abstand zwischen Zellen */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        /* Grid Items */
+        .grid-item {
+            background-color: #2196F3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Layout Beispiel</h1>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+
+    <p>Du kannst <code>grid-template-columns</code> ändern, um andere Layouts zu erstellen!</p>
+</body>
+</html>

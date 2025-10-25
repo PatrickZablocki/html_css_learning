@@ -1,0 +1,28 @@
+/* style.css - externe CSS Datei */
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e0e0e0;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: darkgreen;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}

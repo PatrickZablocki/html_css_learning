@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+</head>
+<body>
+    <h1>Einfaches Formular</h1>
+
+    <!-- Form-Tag: Methode POST, Aktion "#" (nur zur Demo) -->
+    <form action="#" method="post">
+        <!-- Textfeld für den Namen -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Dein Name">
+        <br><br>
+
+        <!-- Passwortfeld -->
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" placeholder="Passwort">
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" name="newsletter"> Newsletter abonnieren
+        </label>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Geschlecht:</label>
+        <label><input type="radio" name="gender" value="male"> Männlich</label>
+        <label><input type="radio" name="gender" value="female"> Weiblich</label>
+        <br><br>
+
+        <!-- Submit-Button -->
+        <button type="submit">Absenden</button>
+    </form>
+</body>
+</html>

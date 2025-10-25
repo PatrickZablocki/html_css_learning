@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular mit Validierung</title>
+</head>
+<body>
+    <h1>Formular mit HTML-Validierung</h1>
+
+    <form action="#" method="post">
+        <!-- Pflichtfeld -->
+        <label for="name">Name (Pflichtfeld):</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Email validieren -->
+        <label for="email">Email (Pflichtfeld & Email-Format):</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Passwort mit Mindestlänge -->
+        <label for="password">Passwort (mind. 6 Zeichen):</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+        <br><br>
+
+        <!-- Zahl zwischen 1 und 10 -->
+        <label for="age">Alter (1-10):</label>
+        <input type="number" id="age" name="age" min="1" max="10" required>
+        <br><br>
+
+        <!-- URL -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website">
+        <br><br>
+
+        <!-- Checkbox erforderlich -->
+        <label>
+            <input type="checkbox" name="agree" required> Ich stimme den Bedingungen zu
+        </label>
+        <br><br>
+
+        <!-- Submit -->
+        <button type="submit">Absenden</button>
+    </form>
+</body>
+</html>
